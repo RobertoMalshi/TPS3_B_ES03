@@ -49,7 +49,7 @@ public class TcpServer {
 				outStream.write(clientMsg.getBytes());
 				outStream.flush();
 
-				System.out.println("\n....................... Fine ricezione dati\n");
+				System.out.println("\n..........Gang.......... Fine ricezione dati\n");
 				// Close resources
 				clientSocket.close();
 				inStream.close();
